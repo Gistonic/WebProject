@@ -1,0 +1,60 @@
+$TextColor:#3b0002;
+$SubTextColor:#8d7062;
+$SubTextLightColor:#c8b8ac;
+$DiferentColor:#920003;
+$DiferentLightColor:#e9b4a3;
+
+/*
+$TextColor:#1e110b;
+$SubTextColor:#6a371c;
+$LightColor:#cc925d;
+$DiferentColor:#791f06;
+$DiferentLightColor:#a74c2a;
+
+*/
+@font-face {
+    font-family: indian;
+    src: url("bitsindiancalligra-Regular.ttf");
+}
+@font-face {
+    font-family: indian;
+    src: url("bitsindiancalligra-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: indian;
+    src: url("bitsindiancalligra-Italic.ttf");
+    font-style: italic;
+}
+
+html,body{
+	margin:0%;
+	padding:0;
+	height:100%;
+	width:100%;	
+}
+header{
+	background-image: url("spice.jpg");
+	background-repeat: 	repeat-x;	
+	width: 100%;
+	height:40%; 
+
+}
+
+#nav{
+	//text-align: center;
+    color: $TextColor;
+    position: fixed;
+
+    background-color: white;
+    width: 100%;
+
+}
+.softText{
+	color:#8d7062;
+}
+#logo{
+	font-family: indian;
+	font-weight: bold;
+	font-style: italic;	
+}
